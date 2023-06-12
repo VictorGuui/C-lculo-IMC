@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `Aluno` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `cpf` varchar(15) NOT NULL unique,
+  `nome` VARCHAR(45) NOT NULL,
+  `data_nascimento` int NOT NULL,
+  `peso` DOUBLE NOT NULL,
+  `altura` DOUBLE NOT NULL,
+  PRIMARY KEY (`id`)
+);
